@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "moduleResolution": "Node",
+    "target": "es5",
+    "allowJs": true,
+    "typeRoots": [
+      "types",
+      "node_modules/@types"
+    ],
+  },
+  "include": ["src/**/*.ts","types/**/*.d.ts"],
+}
